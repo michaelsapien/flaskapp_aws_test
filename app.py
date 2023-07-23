@@ -9,7 +9,7 @@ class home(Resource):
     def get(self):
         return jsonify(
             {
-                'Message': 'crawlandscrap is running',
+                'Message': 'flaskserver is running',
                 'description': 'check api documentation for details',
                 'status': 200
             }
