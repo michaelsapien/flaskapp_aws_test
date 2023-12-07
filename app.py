@@ -9,7 +9,7 @@ class home(Resource):
     def get(self):
         return jsonify(
             {
-                'Message': 'flaskserver is running',
+                'Message': 'bdmapp is running',
                 'description': 'check api documentation for details',
                 'status': 200
             }
